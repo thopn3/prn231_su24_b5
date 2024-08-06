@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDodoAPI", "MyDodoAPI.csproj", "{3DB47CA1-B671-4A86-8C78-3D946F27FAA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DB47CA1-B671-4A86-8C78-3D946F27FAA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB47CA1-B671-4A86-8C78-3D946F27FAA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB47CA1-B671-4A86-8C78-3D946F27FAA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB47CA1-B671-4A86-8C78-3D946F27FAA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {227716B9-BBFF-4851-BE7D-670E622CB14A}
+	EndGlobalSection
+EndGlobal
