@@ -31,9 +31,11 @@ namespace MyDodoAPI.Controllers
 
         // GET: api/todoitem
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<TodoItem>>> GetTodoItems(List<TodoItem> todos)
+        public async Task<ActionResult<IEnumerable<dynamic>>> GetTodoItems(List<TodoItem> todos)
         {
-            return await _context.TodoItems.ToListAsync();
+            var result = await _context.TodoItems
+                    .Select(t => new { ma = t.Id, ten = t.Name, tinhtrang = t.IsComplete ? "Hoan thanh" : "Chua hoan thanh" }).ToListAsync();
+            return Ok(result);
         }
 
         // GET: api/todoitem/id
