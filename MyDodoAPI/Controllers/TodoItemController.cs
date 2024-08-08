@@ -21,7 +21,7 @@ namespace MyDodoAPI.Controllers
 
         // POST api/todoitem
         [HttpPost]
-        public async Task<ActionResult<TodoItem>> PostTodoItem(TodoItem item)
+        public async Task<ActionResult<TodoItem>> PostTodoItem([FromForm]TodoItem item)
         {
             _context.TodoItems.Add(item);
             await _context.SaveChangesAsync();

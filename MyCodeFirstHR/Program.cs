@@ -1,4 +1,4 @@
-﻿using MyDodoAPI.Models;
+﻿using MyCodeFirstHR.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,12 +6,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddCors();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-// Add DBContext global -> Giup khong phai khoi tao lai DBContext trong Controller
-builder.Services.AddDbContext<TodoContext>(opt => opt.UseInMemoryDatabase("MyDB"));
+
+// Add DBContext into Web server container
+builder.Services.AddDbContext<HRContext>(opt => opt.UseSqlServer(builder.Configuration["ConnectionStrings:HRDB"]));
 
 var app = builder.Build();
 
@@ -22,9 +22,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-// Add middlewares -> Kiem soat cac request tu Client app
 app.UseAuthorization();
 
 app.MapControllers();
 
 app.Run();
+

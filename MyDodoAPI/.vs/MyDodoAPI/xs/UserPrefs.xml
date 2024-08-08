@@ -1,29 +1,36 @@
 ﻿<Properties StartupConfiguration="{3DB47CA1-B671-4A86-8C78-3D946F27FAA0}|Default">
   <MonoDevelop.Ide.ItemProperties.MyDodoAPI PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/TodoContext.cs">
     <Files>
-      <File FileName="Models/TodoItem.cs" Line="1" Column="1" />
-      <File FileName="Controllers/TodoItemController.cs" Line="49" Column="1" />
+      <File FileName="Program.cs" />
+      <File FileName="Models/TodoItem.cs" />
       <File FileName="Models/TodoContext.cs" Line="1" Column="1" />
-      <File FileName="Program.cs" Line="15" Column="27" />
+      <File FileName="Controllers/TodoItemController.cs" Line="19" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MyDodoAPI">
-            <Node name="MyDodoAPI">
-              <Node name="Models" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+            <Node name="MyDodoAPI" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True">
+                  <Node name="Microsoft.EntityFrameworkCore.InMemory" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="TodoContext.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

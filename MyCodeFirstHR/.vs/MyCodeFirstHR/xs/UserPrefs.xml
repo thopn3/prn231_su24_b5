@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{EA3F8CB2-29AE-4A0F-9534-D48927C53795}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/EmployeeController.cs">
+    <Files>
+      <File FileName="Models/Employee.cs" Line="18" Column="3" />
+      <File FileName="Models/HRContext.cs" Line="11" Column="1" />
+      <File FileName="Program.cs" Line="14" Column="97" />
+      <File FileName="Controllers/EmployeeController.cs" Line="21" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyCodeFirstHR" expanded="True">
+            <Node name="MyCodeFirstHR">
+              <Node name="Controllers">
+                <Node name="EmployeeController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MyCodeFirstHR PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>
